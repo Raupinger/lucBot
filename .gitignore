@@ -1,1 +1,2 @@
-$ cat config.json
+$ cat .gitignore
+/config.json
