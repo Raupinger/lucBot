@@ -9,7 +9,7 @@ conect: function(){
         
         client.login(token);
     return client;
-    }
+    },
     
 send: function(content){
     channel.send(content);
