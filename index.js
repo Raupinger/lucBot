@@ -1,2 +1,2 @@
-const setup = require('./discordSetup.js');
-setup.conect();
+const discord = require('./discord.js');
+discord.conect();
