@@ -12,17 +12,20 @@ conect: function(){
     },
     
 send: function(content){
+    console.log(channel);
     channel.send(content);
 }
 }
 
 client.on('ready', () => {
           console.log('Ready!');
-          console.log(client.channels.get(channelID));
           
-          console.log("1");
+          
+          
           //we mustn't do any of this before we are ready. Otherwise it were undefined
           channel = client.channels.get(channelID);
+          console.log(channel);
+          console.log("1");
           });
 //just for testng
 client.on("message", message => {
